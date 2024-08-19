@@ -32,16 +32,10 @@ button{
     font-size:15px;
 }
 
-@media screen and (mix-width:900px){
+@media screen and (max-width:500px){
     body{
-        width:50%
+        width:50%;
     }
 }
 
-@media screen and (min-width:320px){
-    body{
-        width:100%;
-        font-size:10px;
-    }
-}
 
