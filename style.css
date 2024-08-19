@@ -1,0 +1,33 @@
+.content{
+    background-color: darkgoldenrod;
+    padding:3px;
+    height:500px;
+    width:40%;
+    margin:20px;
+    border-radius:10px;
+    text-align:center;
+    
+}
+input{
+   height:40px;
+   width:50%; 
+   margin:20px;
+   border-radius:10px;
+   border:none;
+   outline:none;
+}
+input:hover{
+    background-color:bisque;
+    outline:white;
+}
+button{
+    height:45px;
+    width:40%;
+    margin:20px;
+    background-color:darkgreen;
+    color:white;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    font-size:15px;
+}

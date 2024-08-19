@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNEA Cutoff Calculator 2024</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!--Content-->
+    <div class="content">
+        <h1 class="heading">TNEA Cutoff Calculator 2024</h1>
+        <h3 id="result">Your Cutoff Score is..🤩👉</h3>
+        <input type="text" placeholder="Enter Maths Mark" id="math">
+        <br>
+        <input type="text" placeholder="Enter Physics Mark" id="phy">
+        <br>
+        <input type="text" placeholder="Enter Chemistry Mark" id="chem">
+        <br>
+        <button id="btn" onclick="cutoff()">Submit</button>
+    </div>
+    <!--JS-->
+    <script>
+        var math = document.getElementById("math")
+        var phy = document.getElementById("phy")
+        var chem = document.getElementById("chem")
+        var result = document.getElementById("result")
+
+        function cutoff() {
+            var convert=(Number(phy.value)+Number(math.value))/2
+            var ans = Number(math.value) + convert
+
+            console.log(ans)
+
+            result.textContent = "Your Cutoff Score is..🤩👉" + ans
+
+
+        }
+    </script>
+
+</body>
+
+</html>
