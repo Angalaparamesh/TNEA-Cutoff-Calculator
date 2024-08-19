@@ -37,17 +37,12 @@ button{
         width:100%
     }
 }
+
 @media screen and (max-width:650px){
     body{
         height:600px;
-        width:100%
-        background-color:beige;
+/*         background-color: blue; */
+        width:150%;
         font-size:15px;
-    }
-}
-
-@media screen and (max-width:600px){
-    body{
-        width:250%;
     }
 }
