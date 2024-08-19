@@ -41,8 +41,14 @@ button{
 @media screen and (max-width:650px){
     body{
         height:600px;
-/*         background-color: blue; */
+        background-color: blue;
         width:150%;
         font-size:15px;
+    }
+}
+@media screen and (max-width:300px){
+    body{
+        width:100%;
+        font-size:10px;
     }
 }
