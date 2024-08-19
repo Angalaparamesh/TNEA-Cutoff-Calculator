@@ -38,9 +38,9 @@ button{
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:500px){
     body{
-        width:150%;
+        width:100%;
         font-size:10px;
     }
 }
