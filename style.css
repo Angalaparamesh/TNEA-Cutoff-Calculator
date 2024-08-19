@@ -32,9 +32,9 @@ button{
     font-size:15px;
 }
 
-@media screen and (max-width:900px){
+@media screen and (mix-width:900px){
     body{
-        width:100%
+        width:50%
     }
 }
 
