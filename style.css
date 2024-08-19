@@ -32,10 +32,17 @@ button{
     font-size:15px;
 }
 
-@media screen and (max-width:500px){
+
+
+@media screen and (min-width:300px){
     body{
-        width:50%;
+        height:500px;
+      
+        width:150%;
+        font-size:15px;
+    }
+    input{
+        font-size:10px;
     }
 }
-
 
