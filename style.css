@@ -39,7 +39,8 @@ button{
 }
 @media screen and (max-width:500px){
     body{
-        width:250%
+        height:500px;
+        width:150%
     }
 }
 
