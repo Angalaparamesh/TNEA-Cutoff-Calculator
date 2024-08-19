@@ -40,9 +40,9 @@ button{
 @media screen and (max-width:650px){
     body{
         height:600px;
-        width:150%
+        width:100%
         background-color:beige;
-        
+        font-size:15px;
     }
 }
 
