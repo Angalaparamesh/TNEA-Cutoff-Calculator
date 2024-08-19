@@ -13,6 +13,6 @@ HTML5: To structure the content of the calculator.
 CSS3: For styling and ensuring a responsive layout.
 JavaScript: To handle the logic for calculating and displaying the cutoff.
 
-Checkout the project link:[]
+Checkout the project link:[https://angalaparamesh.github.io/TNEA-Cutoff-Calculator/]
 
 Thankyou for visiting my Simple TNEA Cutoff calculator Page..!!
